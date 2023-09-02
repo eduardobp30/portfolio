@@ -118,7 +118,7 @@ const Sobre = () => {
             </li>
             <li>
               <Image
-                src="/assets/nextjs.svg"
+                src="/assets/nextjs-icon.svg"
                 width={50}
                 height={50}
                 alt="Nextjs logo"
@@ -127,7 +127,7 @@ const Sobre = () => {
             </li>
             <li>
               <Image
-                src="/assets/tailwind.svg"
+                src="/assets/tailwindcss-icon.svg"
                 width={50}
                 height={50}
                 alt="Tailwind CSS logo"
@@ -136,7 +136,7 @@ const Sobre = () => {
             </li>
             <li>
               <Image
-                src="/assets/git.svg"
+                src="/assets/git-icon.svg"
                 width={50}
                 height={50}
                 alt="Git logo"

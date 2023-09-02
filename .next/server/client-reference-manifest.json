@@ -56,6 +56,30 @@
         "async": false
       }
     },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./components/Navbar.jsx": {
       "*": {
         "id": "(sc_client)/./components/Navbar.jsx",
@@ -75,30 +99,6 @@
     "(app-client)/./contexts/ThemeContext.jsx": {
       "*": {
         "id": "(sc_client)/./contexts/ThemeContext.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -267,6 +267,54 @@
       ],
       "async": false
     },
+    "/Users/eduardo/Documents/Developer/Next_js/portfolio/node_modules/next/dist/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/sobre/page:static/chunks/app/sobre/page.js"
+      ],
+      "async": false
+    },
+    "/Users/eduardo/Documents/Developer/Next_js/portfolio/node_modules/next/dist/esm/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/sobre/page:static/chunks/app/sobre/page.js"
+      ],
+      "async": false
+    },
+    "/Users/eduardo/Documents/Developer/Next_js/portfolio/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/sobre/page:static/chunks/app/sobre/page.js"
+      ],
+      "async": false
+    },
+    "/Users/eduardo/Documents/Developer/Next_js/portfolio/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/sobre/page:static/chunks/app/sobre/page.js"
+      ],
+      "async": false
+    },
+    "/Users/eduardo/Documents/Developer/Next_js/portfolio/node_modules/next/dist/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/sobre/page:static/chunks/app/sobre/page.js"
+      ],
+      "async": false
+    },
+    "/Users/eduardo/Documents/Developer/Next_js/portfolio/node_modules/next/dist/esm/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/sobre/page:static/chunks/app/sobre/page.js"
+      ],
+      "async": false
+    },
     "/Users/eduardo/Documents/Developer/Next_js/portfolio/components/Navbar.jsx": {
       "id": "(app-client)/./components/Navbar.jsx",
       "name": "*",
@@ -290,57 +338,13 @@
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
-    },
-    "/Users/eduardo/Documents/Developer/Next_js/portfolio/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/eduardo/Documents/Developer/Next_js/portfolio/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/eduardo/Documents/Developer/Next_js/portfolio/node_modules/next/dist/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/eduardo/Documents/Developer/Next_js/portfolio/node_modules/next/dist/esm/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/eduardo/Documents/Developer/Next_js/portfolio/node_modules/next/dist/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/eduardo/Documents/Developer/Next_js/portfolio/node_modules/next/dist/esm/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
     }
   },
   "entryCSSFiles": {
+    "/Users/eduardo/Documents/Developer/Next_js/portfolio/app/page": {
+      "modules": [],
+      "files": []
+    },
     "/Users/eduardo/Documents/Developer/Next_js/portfolio/app/layout": {
       "modules": [
         "/Users/eduardo/Documents/Developer/Next_js/portfolio/styles/globals.css",
@@ -350,7 +354,11 @@
         "static/css/app/layout.css"
       ]
     },
-    "/Users/eduardo/Documents/Developer/Next_js/portfolio/app/page": {
+    "/Users/eduardo/Documents/Developer/Next_js/portfolio/app/projetos/page": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/eduardo/Documents/Developer/Next_js/portfolio/app/sobre/page": {
       "modules": [],
       "files": []
     }
